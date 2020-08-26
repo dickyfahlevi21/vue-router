@@ -1,5 +1,5 @@
 <template>
-  <div class="content inline-block w-full">
+  <div>
     <home-album />
     <side-bar />
   </div>

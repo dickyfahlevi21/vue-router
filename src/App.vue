@@ -1,11 +1,9 @@
 <template>
-  <div id="app">
+  <div id="app" class="relative min-h-screen">
     <div id="nav">
       <nav-bar/>
     </div>
-    <div>
-      <router-view/>
-    </div>
+    <router-view/>    
     <Footer />
   </div>
 </template>
@@ -44,15 +42,11 @@ export default {
 }
 
 .side-color {
-    color: #50BE8C;
+  color: #50BE8C;
 }
 
 .sub-color {
-    color: #566371;
-}
-
-.content {
-  min-height: 85vh;
+  color: #566371;
 }
 
 .post-title {
